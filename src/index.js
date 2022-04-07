@@ -66,13 +66,13 @@ const setDisabledState = (element, state) => {
 
 const clearInput = (...inputs) => inputs.forEach((input) => { input.value = ''; });
 
-const refreshBtn = document.getElementById('refresh-btn');
+const refreshBtn = document.querySelector('refresh-btn');
 refreshBtn.addEventListener('click', initializeScoreboard);
 refreshBtn.click();
 
 const formElem = document.querySelector('form');
-const userInput = document.getElementById('name');
-const scoreInput = document.getElementById('score');
+const userInput = document.querySelector('.name');
+const scoreInput = document.querySelector('.score');
 formElem.addEventListener('submit', async (e) => {
   e.preventDefault();
   const submitInput = formElem.querySelector('input[type=submit]');
