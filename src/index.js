@@ -1,5 +1,4 @@
 import './style.css';
-// import scoreData from './modules/scoreData.js';
 
 const BASE_URL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
 const GAME_ID = 'tUMR5efC78aWw5jlBs6s';
@@ -23,21 +22,6 @@ const addScore = async (username, score) => {
   return resp.json();
 };
 
-// const listShow = document.querySelector('.scors');
-// const display = () => {
-//   getScores();
-//   addScore();
-//   result.forEach((list) => {
-//     const li = `<div class="score">
-//                     <p>${user} :</p>
-//                     <p class="number">${score}</p>
-//                   </div>`;
-//     listShow.innerHTML += li;
-//   });
-// };
-
-// display();
-
 const initializeScoreboard = async () => {
   const scoreboard = document.querySelector('.scors');
   const scores = await getScores();
@@ -46,7 +30,7 @@ const initializeScoreboard = async () => {
     const scoreLi = document.createElement('div');
     scoreLi.className = 'score';
     scoreLi.innerHTML = ` <p>${user} :</p>
-                        <p class="number">${score}</p>`;
+                          <p class="number">${score}</p>`;
     scoreboard.appendChild(scoreLi);
   });
 };
@@ -66,7 +50,7 @@ const setDisabledState = (element, state) => {
 
 const clearInput = (...inputs) => inputs.forEach((input) => { input.value = ''; });
 
-const refreshBtn = document.querySelector('refresh-btn');
+const refreshBtn = document.getElementById('refresh-btn');
 refreshBtn.addEventListener('click', initializeScoreboard);
 refreshBtn.click();
 
