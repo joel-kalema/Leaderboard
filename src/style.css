@@ -43,6 +43,7 @@ header {
 }
 
 header button {
+  cursor: pointer;
   margin-left: 70px;
   padding: 0 20px;
   border: none;
@@ -109,6 +110,7 @@ form .button {
   margin-top: 20px;
   padding: 10px 20px;
   border: none;
+  cursor: pointer;
   background-color: #fec827;
   border-radius: 20px;
   -webkit-border-radius: 20px;
