@@ -13,16 +13,16 @@
         <div class="list-containt">
           <header>
             <h2>Resent Scores</h2>
-            <button>Refresh</button>
+            <button id="refresh-btn" type="button">Refresh</button>
           </header>
           <div class="scors"></div>
         </div>
         <div class="add-score">
           <h2>Add your score</h2>
-          <form>
-            <input type="text" placeholder="name" />
-            <input type="text" placeholder="score" />
-            <button type="submit">Add score</button>
+          <form action="#">
+            <input type="text" placeholder="name" class="name" />
+            <input type="number" placeholder="score" class="score" />
+            <input type="submit" value="Submit" class="button" />
           </form>
         </div>
       </div>
