@@ -10,7 +10,10 @@
 - Csss
 - Js
 - Technologies used:
-  webpack, AJAX, API and Gitflow
+  > webpack
+  > AJAX
+  > API
+  > Gitflow
 
 ## Getting Started
 
@@ -81,6 +84,7 @@ Webpack also needs `Promise` for `import()` and `require.ensure()`. If you want 
 Webpack has a [rich plugin
 interface](https://webpack.js.org/plugins/). Most of the features
 within webpack itself use this plugin interface. This makes webpack very flexible
+
 ### Prerequisites
 
 ```
