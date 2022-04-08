@@ -14,7 +14,6 @@
   > AJAX
   > API
   > Gitflow
-
 ## Getting Started
 
 <h1>webpack</h1>
