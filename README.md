@@ -2,7 +2,7 @@
 
 # Leaderboard
 
-> In this activity you will set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. You should develop a first working version of the app following a wireframe, but without styling - just focus on functionality. In following activities, you will consume the Leaderboard API using JavaScript async and await and add some styling.
+> The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
 
 ## Built With
 
@@ -14,6 +14,7 @@
   > AJAX
   > API
   > Gitflow
+
 ## Getting Started
 
 <h1>webpack</h1>
@@ -118,7 +119,9 @@ set up on github pages
 
 ## live
 
-![leader](https://user-images.githubusercontent.com/57408419/161828199-ae29a000-54b4-40c3-aa58-a2fe712427e2.jpg)
+|     | LEADERBOARD                                                                                                      |     |
+| --- | ---------------------------------------------------------------------------------------------------------------- | --- |
+|     | ![leader](https://user-images.githubusercontent.com/57408419/161828199-ae29a000-54b4-40c3-aa58-a2fe712427e2.jpg) |     |
 
 ## Authors
 
