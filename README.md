@@ -111,12 +111,6 @@ open the html file
 navigate through the pages to see different contents
 ```
 
-### Deployment
-
-```
-set up on github pages
-```
-
 ## live
 
 |     | LEADERBOARD                                                                                                      |     |
