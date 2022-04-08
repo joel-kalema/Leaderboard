@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Cambay&family=Krona+One&family=Montserrat:wght@900&family=Poppins:wght@100;400&family=Prompt:wght@300;500&family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+main {
+  padding-top: 1rem;
+  background-color: #3c2247;
+  width: 100%;
+  min-height: 100vh;
+  padding-bottom: 30px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-left: 10rem;
+}
+
+.containte {
+  display: flex;
+  background-color: #312243;
+  border: 4px #432d51 solid;
+  width: 60%;
+  min-height: 50vh;
+  margin: 50px auto;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.493);
+}
+
+.list-containt {
+  width: 60%;
+  padding: 30px 50px;
+}
+
+header {
+  display: flex;
+}
+
+header button {
+  cursor: pointer;
+  margin-left: 70px;
+  padding: 0 20px;
+  border: none;
+  background-color: darkorange;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.267);
+}
+
+.scors {
+  width: 70%;
+  margin-top: 20px;
+}
+
+.score {
+  margin-top: 8px;
+  width: 100%;
+  padding: 10px;
+  background-color: #47355e3a;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.267);
+}
+
+.number {
+  width: 30%;
+  text-align: end;
+}
+
+.add-score {
+  width: 40%;
+  padding: 10px 40px;
+}
+
+form {
+  padding: 20px 10px;
+  margin-top: 10px;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.493);
+  border: 4px #432d51 solid;
+  overflow: hidden;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+input {
+  width: 100%;
+  border: none;
+  background-color: #4e365e;
+  height: 30px;
+  margin-top: 15px;
+  outline: none;
+  color: #fff;
+  padding-left: 10px;
+}
+
+form .button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #fec827;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
