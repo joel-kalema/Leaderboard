@@ -2,7 +2,7 @@
 
 # Leaderboard
 
-> Description the project.
+> In this activity you will set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. You should develop a first working version of the app following a wireframe, but without styling - just focus on functionality. In following activities, you will consume the Leaderboard API using JavaScript async and await and add some styling.
 
 ## Built With
 
@@ -10,7 +10,7 @@
 - Csss
 - Js
 - Technologies used:
-  webpack and Gitflow
+  webpack, AJAX, API and Gitflow
 
 ## Getting Started
 
@@ -81,6 +81,37 @@ Webpack also needs `Promise` for `import()` and `require.ensure()`. If you want 
 Webpack has a [rich plugin
 interface](https://webpack.js.org/plugins/). Most of the features
 within webpack itself use this plugin interface. This makes webpack very flexible
+### Prerequisites
+
+```
+node and npm
+```
+
+### Setup
+
+```
+- clone the repo
+- cd into it
+- npm install
+```
+
+### Install
+
+```
+open the html file
+```
+
+### Usage
+
+```
+navigate through the pages to see different contents
+```
+
+### Deployment
+
+```
+set up on github pages
+```
 
 ## live
 
