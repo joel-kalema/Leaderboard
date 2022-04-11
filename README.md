@@ -21,7 +21,7 @@
 | --- | ---------------------------------------------------------------------------------------------------------------- | --- |
 |     | ![leader](https://user-images.githubusercontent.com/57408419/161828199-ae29a000-54b4-40c3-aa58-a2fe712427e2.jpg) |     |
 
-[live](https://joel-kalema.github.io/Leaderboard/)
+## [live](https://joel-kalema.github.io/Leaderboard/)
 
 ## Getting Started
 
