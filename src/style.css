@@ -7,6 +7,7 @@
 }
 
 body {
+  background-color: #3c2247;
   color: #fff;
   font-family: 'Poppins', sans-serif;
 }
@@ -118,4 +119,41 @@ form .button {
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
+}
+
+@media only screen and (max-width: 712px) {
+  body {
+    padding: 0 20px;
+  }
+
+  h1 {
+    font-size: 20px;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .containte {
+    flex-direction: column-reverse;
+    width: 100%;
+    min-height: 50vh;
+    margin: 0 0;
+  }
+
+  .add-score {
+    width: 100%;
+    padding: 10px 40px;
+  }
+
+  .list-containt {
+    width: 100%;
+    padding: 15px 20px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .scors {
+    width: 100%;
+  }
 }
