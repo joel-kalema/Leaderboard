@@ -22,7 +22,8 @@ main {
 
 h1 {
   font-size: 40px;
-  margin-left: 10rem;
+  margin-left: 17rem;
+  margin-top: 40px;
 }
 
 .containte {
@@ -31,7 +32,7 @@ h1 {
   border: 4px #432d51 solid;
   width: 60%;
   min-height: 50vh;
-  margin: 50px auto;
+  margin: 60px auto;
   box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.493);
 }
 
