@@ -158,3 +158,24 @@ form .button {
     width: 100%;
   }
 }
+
+@media only screen and (min-width: 712px) and (max-width: 820px) {
+  body {
+    padding: 0 40px;
+  }
+
+  .containte {
+    flex-direction: column-reverse;
+    width: 100%;
+    min-height: 50vh;
+    margin: 0 0;
+  }
+
+  .add-score {
+    width: 100%;
+  }
+
+  .list-containt {
+    width: 100%;
+  }
+}
