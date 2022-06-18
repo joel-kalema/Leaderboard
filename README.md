@@ -67,7 +67,7 @@ navigate through the pages to see different contents
 
 ## Authors
 
-👤 **JOEL KALEMA**
+👤 **joel kalema**
 
 - GitHub: [@joel-kalema](https://github.com/joel-kalema)
 - Twitter: [@JoelJklm](https://www.linkedin.com/in/joel-kalema-30518a230/)
